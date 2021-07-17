@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Item from './Item'
 
-class Home extends Component{
+class Todo extends Component{
     
    state={
        name:['lolo']
@@ -55,4 +55,4 @@ class Home extends Component{
     }
 }
 
-export default Home
+export default Todo

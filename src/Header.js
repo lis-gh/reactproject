@@ -8,8 +8,8 @@ function Header(){
             
                 <div className="navbar-nav">
                     <ul className="navbar-nav ">
-                        <NavLink exact to="/" className="nav-item p-3" >Home</NavLink>
-                        <NavLink exact to="/About" className="nav-item p-3" >about</NavLink>
+                        <NavLink exact to="/" className="nav-item p-3" >Todo</NavLink>
+                        <NavLink exact to="/About" className="nav-item p-3" >crud courses</NavLink>
                         <NavLink exact to="/Weather" className="nav-item p-3" >weather</NavLink>
 
 

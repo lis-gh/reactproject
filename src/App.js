@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import About from './About';
-import Home from './Home'
+import Todo from './Todo'
 import {BrowserRouter, Route} from 'react-router-dom'
 import Weather from './Weather';
 function App() {
@@ -11,7 +11,7 @@ function App() {
       
       <BrowserRouter>
       <Header />
-      <Route exact path="/" component={Home} />
+      <Route exact path="/" component={Todo} />
       <Route exact path="/about" component={About} />
       <Route exact path="/weather" component={Weather} />
       </BrowserRouter>
